@@ -26,6 +26,16 @@ This is the official open-source entry for Video-MME-Logical. The current reposi
 - ✅ [Video-MME-Logical benchmark released](https://huggingface.co/datasets/marcuskwan/video-mme-logical)
 - ☐ Model checkpoint: coming soon
 
+## Evaluation
+
+```bash
+pip install google-genai
+export GEMINI_API_KEY=your_api_key
+python eval.py --dataset path/to/eval_items.json
+```
+
+The script writes JSONL predictions and prints the final accuracy.
+
 ## Citation
 
 If you find this project useful, please cite:
