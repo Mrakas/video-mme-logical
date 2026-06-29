@@ -20,17 +20,11 @@ This is the official open-source entry for Video-MME-Logical. The current reposi
 
 ![Video-MME-Logical construction pipeline](docs/figures/figure2.png)
 
-## Release Status
+## Release TODO
 
-This repository is currently a placeholder for the public release. It is not yet the full benchmark release.
-
-Planned release materials include:
-
-- benchmark generation and task metadata
-- dataset access and download instructions
-- evaluation scripts and scoring utilities
-- model prediction format documentation
-- examples for running evaluation on Video-MME-Logical
+- ✅ [arXiv paper released](https://arxiv.org/abs/2606.27828)
+- ✅ [Video-MME-Logical benchmark released](https://huggingface.co/datasets/marcuskwan/video-mme-logical)
+- ☐ Model checkpoint: coming soon
 
 ## Citation
 
