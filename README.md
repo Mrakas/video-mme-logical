@@ -10,6 +10,16 @@ This is the official open-source entry for Video-MME-Logical. The current reposi
 - PDF: https://arxiv.org/pdf/2606.27828
 - Project page: https://mrakas.github.io/video-mme-logical/
 
+## Paper Figures
+
+### Figure 1: Video-MME-Logical Overview
+
+![Video-MME-Logical overview](docs/figures/figure1.png)
+
+### Figure 2: Benchmark Construction Pipeline
+
+![Video-MME-Logical construction pipeline](docs/figures/figure2.png)
+
 ## Release Status
 
 This repository is currently a placeholder for the public release. It is not yet the full benchmark release.
