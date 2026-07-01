@@ -6,7 +6,7 @@ This is the official open-source entry for Video-MME-Logical. The current reposi
 
 ## Links
 
-[🍎 Project Page](https://mrakas.github.io/video-mme-logical/) [📖 Paper](https://arxiv.org/pdf/2606.27828) [🏆 Leaderboard](#-leaderboard) [📊 Dataset](https://huggingface.co/datasets/marcuskwan/video-mme-logical)
+[🍎 Project Page](https://mrakas.github.io/video-mme-logical/) [📖 Paper](https://arxiv.org/pdf/2606.27828) [🏆 Leaderboard](#-leaderboard) [📊 Dataset](https://huggingface.co/datasets/marcuskwan/video-mme-logical) [🤖 Reproduction Agent Guide](doc_agent.md)
 
 ## 🏆 Leaderboard
 
@@ -81,6 +81,8 @@ Scores are accuracy (%) from the paper. The tables below omit our trained/SFT mo
 - ☐ Model checkpoint: coming soon
 
 ## Evaluation
+
+For a Codex-friendly end-to-end workflow from Hugging Face dataset download to API evaluation, see [doc_agent.md](doc_agent.md).
 
 ```bash
 pip install google-genai
