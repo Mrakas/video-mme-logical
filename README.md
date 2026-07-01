@@ -108,3 +108,9 @@ If you find this project useful, please cite:
 ## License
 
 This repository is released under the MIT License. See [LICENSE](LICENSE).
+
+## Contact
+
+For questions about Video-MME-Logical, please contact the authors via WeChat.
+
+<img src="docs/contact/wechat.jpg" alt="WeChat contact QR code" width="220">
