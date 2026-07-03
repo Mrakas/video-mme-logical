@@ -24,3 +24,25 @@ url: "https://mrakas.github.io/video-mme-logical/"
 identifiers:
   - type: other
     value: "arXiv:2606.27828"
+preferred-citation:
+  type: article
+  title: "Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning"
+  authors:
+    - family-names: Kwan
+      given-names: Hohin
+    - family-names: Li
+      given-names: Hongyu
+    - family-names: Zhang
+      given-names: Ray
+    - family-names: Zhang
+      given-names: Manyuan
+    - family-names: Kong
+      given-names: Xianghao
+    - family-names: Rao
+      given-names: Anyi
+    - family-names: Xie
+      given-names: Jiahao
+    - family-names: Liu
+      given-names: Si
+  journal: "arXiv preprint arXiv:2606.27828"
+  year: 2026

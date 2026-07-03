@@ -97,13 +97,11 @@ The script writes JSONL predictions and prints the final accuracy.
 If you find this project useful, please cite:
 
 ```bibtex
-@misc{kwan2026videommelogical,
-  title         = {Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning},
-  author        = {Kwan, Hohin and Li, Hongyu and Zhang, Ray and Zhang, Manyuan and Kong, Xianghao and Rao, Anyi and Xie, Jiahao and Liu, Si},
-  year          = {2026},
-  eprint        = {2606.27828},
-  archivePrefix = {arXiv},
-  url           = {https://arxiv.org/abs/2606.27828}
+@article{kwan2026video,
+  title={Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning},
+  author={Kwan, Hohin and Li, Hongyu and Zhang, Ray and Zhang, Manyuan and Kong, Xianghao and Rao, Anyi and Xie, Jiahao and Liu, Si},
+  journal={arXiv preprint arXiv:2606.27828},
+  year={2026}
 }
 ```
 
