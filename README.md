@@ -6,7 +6,7 @@ This is the official open-source entry for Video-MME-Logical. The current reposi
 
 ## Links
 
-[🍎 Project Page](https://mrakas.github.io/video-mme-logical/) [📖 Paper](https://arxiv.org/pdf/2606.27828) [🏆 Leaderboard](#-leaderboard) [📊 Dataset](https://huggingface.co/datasets/marcuskwan/video-mme-logical) [🤖 Reproduction Agent Guide](doc_agent.md)
+[🍎 Project Page](https://mrakas.github.io/video-mme-logical/) [📖 Paper](https://arxiv.org/pdf/2606.27828) [🤗 HF Paper](https://huggingface.co/papers/2606.27828) [🏆 Leaderboard](#-leaderboard) [📊 Dataset](https://huggingface.co/datasets/marcuskwan/video-mme-logical) [🤖 Reproduction Agent Guide](doc_agent.md)
 
 ## 🏆 Leaderboard
 
