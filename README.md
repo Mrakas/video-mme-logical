@@ -2,6 +2,8 @@
 
 **Video-MME-Logical: A Controlled Diagnostic Benchmark for Video Temporal-Logical Reasoning**
 
+> 🎉 Accepted to Findings of EMNLP 2026.
+
 This is the official open-source entry for Video-MME-Logical. The current repository hosts the project page and release landing materials. Code, dataset release instructions, and evaluation scripts are being organized and will be released here.
 
 ## Links
@@ -77,6 +79,7 @@ Scores are accuracy (%) from the paper. The tables below omit our trained/SFT mo
 ## Release TODO
 
 - ✅ [arXiv paper released](https://arxiv.org/abs/2606.27828)
+- ✅ Accepted to Findings of EMNLP 2026
 - ✅ [Video-MME-Logical benchmark released](https://huggingface.co/datasets/marcuskwan/video-mme-logical)
 - ☐ Model checkpoint: coming soon
 
