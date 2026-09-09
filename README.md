@@ -10,9 +10,13 @@ This is the official open-source entry for Video-MME-Logical. The current reposi
 
 [🍎 Project Page](https://mrakas.github.io/video-mme-logical/) [📖 Paper](https://arxiv.org/pdf/2606.27828) [🤗 HF Paper](https://huggingface.co/papers/2606.27828) [🏆 Leaderboard](#-leaderboard) [📊 Dataset](https://huggingface.co/datasets/marcuskwan/video-mme-logical) [🤖 Reproduction Agent Guide](doc_agent.md)
 
+## 🌟 News
+
+- **[2026-08]** Video-MME-Logical is used to evaluate temporal-logical reasoning in [OpenMOSS’s MOSS-VL technical report](https://arxiv.org/abs/2608.15045), which reports scores of **17.1% for MOSS-VL-Instruct** and **10.8% for Gemma-4-12B-IT** on our benchmark.
+
 ## 🏆 Leaderboard
 
-Scores are accuracy (%) from the paper. The tables below omit our trained/SFT models and report the compact overall difficulty breakdown.
+Scores are accuracy (%). The first two tables report results from our paper, omit our trained/SFT models, and show the compact overall difficulty breakdown. Additional results reported by other teams are listed separately below.
 
 ### Video-MME-Logical
 
@@ -65,6 +69,17 @@ Scores are accuracy (%) from the paper. The tables below omit our trained/SFT mo
 | **Proprietary Models** |  |  |  |  |
 | GPT-5.4 | **17.4** | **30.8** | **13.7** | **7.7** |
 | Gemini-3.1 Pro | 10.8 | 18.7 | 8.5 | 5.2 |
+
+### Results reported by other teams
+
+The following results are for Video-MME-Logical.
+
+| Model | Overall (%) | Source |
+|---|---:|---|
+| MOSS-VL-Instruct-0708 | 17.1 | [MOSS-VL report, Table 5](https://arxiv.org/html/2608.15045v1#S6) |
+| Gemma-4-12B-IT | 10.8 | [MOSS-VL report, Table 5](https://arxiv.org/html/2608.15045v1#S6) |
+
+Results reported by the OpenMOSS team; not independently reproduced by us. Evaluation settings may differ from those in our paper. Difficulty-level breakdowns and Video-MME-Logical-S results were not reported.
 
 ## Paper Figures
 
