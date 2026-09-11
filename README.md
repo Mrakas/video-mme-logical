@@ -4,14 +4,15 @@
 
 > 🎉 Accepted to Findings of EMNLP 2026.
 
-This is the official open-source entry for Video-MME-Logical. The current repository hosts the project page and release landing materials. Code, dataset release instructions, and evaluation scripts are being organized and will be released here.
+This is the official repository for Video-MME-Logical, with the project page, evaluation code, and dataset download links. Both the evaluation benchmark and the 500K training dataset are publicly available on Hugging Face.
 
 ## Links
 
-[🍎 Project Page](https://mrakas.github.io/video-mme-logical/) [📖 Paper](https://arxiv.org/pdf/2606.27828) [🤗 HF Paper](https://huggingface.co/papers/2606.27828) [🏆 Leaderboard](#-leaderboard) [📊 Dataset](https://huggingface.co/datasets/marcuskwan/video-mme-logical) [🤖 Reproduction Agent Guide](doc_agent.md)
+[🍎 Project Page](https://mrakas.github.io/video-mme-logical/) [📖 Paper](https://arxiv.org/pdf/2606.27828) [🤗 HF Paper](https://huggingface.co/papers/2606.27828) [🏆 Leaderboard](#-leaderboard) [📊 Evaluation Data](https://huggingface.co/datasets/marcuskwan/video-mme-logical) [🤗 Training Data (500K)](https://huggingface.co/datasets/marcuskwan/video-mme-logical-500k) [🤖 Reproduction Agent Guide](doc_agent.md)
 
 ## 🌟 News
 
+- **[2026-09-12]** Our [500K training dataset](https://huggingface.co/datasets/marcuskwan/video-mme-logical-500k) for video temporal-logical reasoning is now publicly available on Hugging Face!
 - **[2026-08]** Video-MME-Logical is used to evaluate temporal-logical reasoning in [OpenMOSS’s MOSS-VL technical report](https://arxiv.org/abs/2608.15045), which reports scores of **17.1% for MOSS-VL-Instruct** and **10.8% for Gemma-4-12B-IT** on our benchmark.
 
 ## 🏆 Leaderboard
@@ -96,6 +97,7 @@ Results reported by the OpenMOSS team; not independently reproduced by us. Evalu
 - ✅ [arXiv paper released](https://arxiv.org/abs/2606.27828)
 - ✅ Accepted to Findings of EMNLP 2026
 - ✅ [Video-MME-Logical benchmark released](https://huggingface.co/datasets/marcuskwan/video-mme-logical)
+- ✅ [500K training dataset released](https://huggingface.co/datasets/marcuskwan/video-mme-logical-500k)
 - ☐ Model checkpoint: coming soon
 
 ## Evaluation
