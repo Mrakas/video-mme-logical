@@ -1,0 +1,657 @@
+{
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "input_protocol": "Independent Codex exec calls; all original-resolution video frames sampled at 2 FPS plus required reference images; original question; no tools; no answers in model input.",
+  "expected_total": 375,
+  "completed": 375,
+  "overall": {
+    "correct": 310,
+    "total": 375,
+    "accuracy": 0.8266666666666667,
+    "errors": 0
+  },
+  "by_difficulty": {
+    "easy": {
+      "correct": 105,
+      "total": 125,
+      "accuracy": 0.84,
+      "errors": 0
+    },
+    "hard": {
+      "correct": 104,
+      "total": 125,
+      "accuracy": 0.832,
+      "errors": 0
+    },
+    "medium": {
+      "correct": 101,
+      "total": 125,
+      "accuracy": 0.808,
+      "errors": 0
+    }
+  },
+  "by_task": {
+    "3d_maze_route": {
+      "correct": 14,
+      "total": 15,
+      "accuracy": 0.9333333333333333,
+      "errors": 0
+    },
+    "card_relocation": {
+      "correct": 11,
+      "total": 15,
+      "accuracy": 0.7333333333333333,
+      "errors": 0
+    },
+    "card_relocation_s": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "card_shuffle": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "card_shuffle_s": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cube_structure": {
+      "correct": 14,
+      "total": 15,
+      "accuracy": 0.9333333333333333,
+      "errors": 0
+    },
+    "cups_shuffle": {
+      "correct": 13,
+      "total": 15,
+      "accuracy": 0.8666666666666667,
+      "errors": 0
+    },
+    "cups_shuffle_s": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cups_trick": {
+      "correct": 13,
+      "total": 15,
+      "accuracy": 0.8666666666666667,
+      "errors": 0
+    },
+    "cups_trick_s": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "falling_shape": {
+      "correct": 7,
+      "total": 15,
+      "accuracy": 0.4666666666666667,
+      "errors": 0
+    },
+    "grid_activation": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "grid_activation_s": {
+      "correct": 11,
+      "total": 15,
+      "accuracy": 0.7333333333333333,
+      "errors": 0
+    },
+    "hidden_container": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "inclusion_object": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "keyboard_sequence": {
+      "correct": 10,
+      "total": 15,
+      "accuracy": 0.6666666666666666,
+      "errors": 0
+    },
+    "keyboard_sequence_s": {
+      "correct": 3,
+      "total": 15,
+      "accuracy": 0.2,
+      "errors": 0
+    },
+    "maze_trace": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "neon_word": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "neon_word_s": {
+      "correct": 0,
+      "total": 15,
+      "accuracy": 0.0,
+      "errors": 0
+    },
+    "rotation_center": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "speed_comparison": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "symbol": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "symbol_s": {
+      "correct": 4,
+      "total": 15,
+      "accuracy": 0.26666666666666666,
+      "errors": 0
+    },
+    "trajectory_intersection": {
+      "correct": 15,
+      "total": 15,
+      "accuracy": 1.0,
+      "errors": 0
+    }
+  },
+  "by_group": {
+    "3d_maze_route_easy": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8,
+      "errors": 0
+    },
+    "3d_maze_route_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "3d_maze_route_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "card_relocation_easy": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8,
+      "errors": 0
+    },
+    "card_relocation_hard": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6,
+      "errors": 0
+    },
+    "card_relocation_medium": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8,
+      "errors": 0
+    },
+    "card_relocation_s_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "card_relocation_s_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "card_relocation_s_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "card_shuffle_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "card_shuffle_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "card_shuffle_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "card_shuffle_s_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "card_shuffle_s_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "card_shuffle_s_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cube_structure_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cube_structure_hard": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8,
+      "errors": 0
+    },
+    "cube_structure_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cups_shuffle_easy": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8,
+      "errors": 0
+    },
+    "cups_shuffle_hard": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8,
+      "errors": 0
+    },
+    "cups_shuffle_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cups_shuffle_s_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cups_shuffle_s_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cups_shuffle_s_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cups_trick_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cups_trick_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cups_trick_medium": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6,
+      "errors": 0
+    },
+    "cups_trick_s_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cups_trick_s_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "cups_trick_s_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "falling_shape_easy": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6,
+      "errors": 0
+    },
+    "falling_shape_hard": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6,
+      "errors": 0
+    },
+    "falling_shape_medium": {
+      "correct": 1,
+      "total": 5,
+      "accuracy": 0.2,
+      "errors": 0
+    },
+    "grid_activation_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "grid_activation_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "grid_activation_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "grid_activation_s_easy": {
+      "correct": 2,
+      "total": 5,
+      "accuracy": 0.4,
+      "errors": 0
+    },
+    "grid_activation_s_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "grid_activation_s_medium": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8,
+      "errors": 0
+    },
+    "hidden_container_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "hidden_container_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "hidden_container_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "inclusion_object_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "inclusion_object_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "inclusion_object_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "keyboard_sequence_easy": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6,
+      "errors": 0
+    },
+    "keyboard_sequence_hard": {
+      "correct": 3,
+      "total": 5,
+      "accuracy": 0.6,
+      "errors": 0
+    },
+    "keyboard_sequence_medium": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8,
+      "errors": 0
+    },
+    "keyboard_sequence_s_easy": {
+      "correct": 1,
+      "total": 5,
+      "accuracy": 0.2,
+      "errors": 0
+    },
+    "keyboard_sequence_s_hard": {
+      "correct": 2,
+      "total": 5,
+      "accuracy": 0.4,
+      "errors": 0
+    },
+    "keyboard_sequence_s_medium": {
+      "correct": 0,
+      "total": 5,
+      "accuracy": 0.0,
+      "errors": 0
+    },
+    "maze_trace_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "maze_trace_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "maze_trace_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "neon_word_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "neon_word_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "neon_word_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "neon_word_s_easy": {
+      "correct": 0,
+      "total": 5,
+      "accuracy": 0.0,
+      "errors": 0
+    },
+    "neon_word_s_hard": {
+      "correct": 0,
+      "total": 5,
+      "accuracy": 0.0,
+      "errors": 0
+    },
+    "neon_word_s_medium": {
+      "correct": 0,
+      "total": 5,
+      "accuracy": 0.0,
+      "errors": 0
+    },
+    "rotation_center_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "rotation_center_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "rotation_center_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "speed_comparison_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "speed_comparison_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "speed_comparison_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "symbol_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "symbol_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "symbol_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "symbol_s_easy": {
+      "correct": 4,
+      "total": 5,
+      "accuracy": 0.8,
+      "errors": 0
+    },
+    "symbol_s_hard": {
+      "correct": 0,
+      "total": 5,
+      "accuracy": 0.0,
+      "errors": 0
+    },
+    "symbol_s_medium": {
+      "correct": 0,
+      "total": 5,
+      "accuracy": 0.0,
+      "errors": 0
+    },
+    "trajectory_intersection_easy": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "trajectory_intersection_hard": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    },
+    "trajectory_intersection_medium": {
+      "correct": 5,
+      "total": 5,
+      "accuracy": 1.0,
+      "errors": 0
+    }
+  },
+  "direct_answer": {
+    "correct": 232,
+    "total": 255,
+    "accuracy": 0.9098039215686274,
+    "errors": 0
+  },
+  "intermediate_state": {
+    "correct": 78,
+    "total": 120,
+    "accuracy": 0.65,
+    "errors": 0
+  },
+  "evaluation_date": "2026-10-12",
+  "sampling_seed": 20261012,
+  "samples_per_task_difficulty": 5,
+  "codex_version": "0.159.3",
+  "scorer": "Unchanged extract_answer/normalize_answer/prediction_record from repository eval.py",
+  "dataset_source": "https://huggingface.co/datasets/marcuskwan/video-mme-logical",
+  "code": "https://github.com/Mrakas/video-mme-logical",
+  "manifest_sha256": "5ce1e3f5e45ffc07e6c4eaae53030f79ac2b374d3e66b5e1454f615c9656cbef"
+}

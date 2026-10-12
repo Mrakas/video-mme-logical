@@ -12,8 +12,27 @@ This is the official repository for Video-MME-Logical, with the project page, ev
 
 ## 🌟 News
 
+- **[2026-10-12]** The [375-sample Mini Set](#mini-set-375-samples) and its GPT 6.1 Sol / Medium baseline (**82.7%**) are available for quick evaluation.
 - **[2026-09-12]** Our [500K training dataset](https://huggingface.co/datasets/marcuskwan/video-mme-logical-500k) for video temporal-logical reasoning is now publicly available on Hugging Face!
 - **[2026-08]** Video-MME-Logical is used to evaluate temporal-logical reasoning in [OpenMOSS’s MOSS-VL technical report](https://arxiv.org/abs/2608.15045), which reports scores of **17.1% for MOSS-VL-Instruct** and **10.8% for Gemma-4-12B-IT** on our benchmark.
+
+## Mini Set (375 samples)
+
+We provide a fixed **10% subset** for quick evaluation: **5 samples from each of 25 tasks at each of 3 difficulty levels**, giving **125 easy, 125 medium, and 125 hard samples**. Sampling is without replacement with seed `20261012`; original questions, answers, videos, and reference images are unchanged. The subset includes 255 direct-answer samples and 120 intermediate-state samples across 8 diagnostic tasks.
+
+[Download videos + annotations (~352 MB)](https://huggingface.co/datasets/marcuskwan/video-mme-logical/resolve/main/video_mme_logical_mini.zip) · [Sample manifest](mini/mini_test_375.json) · [Sampling metadata](mini/sampling.json) · [Hugging Face dataset](https://huggingface.co/datasets/marcuskwan/video-mme-logical)
+
+### Mini Set baseline
+
+Evaluated on 2026-10-12 using **GPT 6.1 Sol / Medium** (`gpt-6.1-sol`) through independent `codex exec` calls. Each request receives the original question, all video frames sampled at **2 FPS**, and the required reference images. Tools and web search are disabled; ground-truth answers are used only for scoring. We use the repository's unchanged exact-match scorer.
+
+| Model | Overall | Easy | Medium | Hard |
+|---|---:|---:|---:|---:|
+| GPT 6.1 Sol / Medium | **82.7% (310/375)** | 84.0% (105/125) | 80.8% (101/125) | 83.2% (104/125) |
+
+Direct-answer accuracy is **91.0% (232/255)**; intermediate-state accuracy is **65.0% (78/120)**. All 375 requests produced scored responses. These are Mini Set results; each task–difficulty cell has only 5 samples, so they should be interpreted separately from the full-benchmark leaderboard below.
+
+[Per-task scores](results/mini_gpt_6_1_sol_medium/task_scores.csv) · [Summary](results/mini_gpt_6_1_sol_medium/summary.json) · [Heatmap](results/mini_gpt_6_1_sol_medium/task_heatmap.png)
 
 ## 🏆 Leaderboard
 
