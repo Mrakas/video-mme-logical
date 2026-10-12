@@ -26,9 +26,12 @@ We provide a fixed **10% subset** for quick evaluation: **5 samples from each of
 
 Evaluated on 2026-10-12 using **GPT 6.1 Sol / Medium** (`gpt-6.1-sol`) through independent `codex exec` calls. Each request receives the original question, all video frames sampled at **2 FPS**, and the required reference images. Tools and web search are disabled; ground-truth answers are used only for scoring. We use the repository's unchanged exact-match scorer.
 
-| Model | Overall | Easy | Medium | Hard |
+| Evaluation subset | Overall | Easy | Medium | Hard |
 |---|---:|---:|---:|---:|
-| GPT 6.1 Sol / Medium | **82.7% (310/375)** | 84.0% (105/125) | 80.8% (101/125) | 83.2% (104/125) |
+| Final-answer tasks (Video-MME-Logical Mini, 255 samples) | **91.0% (232/255)** | 91.8% (78/85) | 90.6% (77/85) | 90.6% (77/85) |
+| Intermediate-state tasks (Video-MME-Logical-S Mini, 120 samples) | **65.0% (78/120)** | 67.5% (27/40) | 60.0% (24/40) | 67.5% (27/40) |
+
+The combined score across both subsets is 82.7% (310/375); this aggregate is provided only as a reference. Intermediate-state tasks use the original exact-match scorer for the complete annotated state sequence, without partial credit.
 
 Direct-answer accuracy is **91.0% (232/255)**; intermediate-state accuracy is **65.0% (78/120)**. All 375 requests produced scored responses. These are Mini Set results; each task–difficulty cell has only 5 samples, so they should be interpreted separately from the full-benchmark leaderboard below.
 
